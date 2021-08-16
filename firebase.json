@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "redirects": [
+      {
+        "source": "/about",
+        "destination": "about.html",
+        "type": 301
+      }
+    ],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
